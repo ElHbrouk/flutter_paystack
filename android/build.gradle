@@ -2,7 +2,6 @@ group 'co.paystack.flutterpaystack'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    namespace = "co.paystack.flutterpaystack"
     ext.kotlin_version = '1.8.22'
     repositories {
         mavenCentral()
