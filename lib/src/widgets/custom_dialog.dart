@@ -32,8 +32,8 @@ class CustomAlertDialog extends StatelessWidget {
     if (title != null && titlePadding != null) {
       children.add(new Padding(
         padding: titlePadding!,
-        child: new DefaultTextStyle(
-          style: Theme.of(context).textTheme.titleLarge,
+        child: DefaultTextStyle(
+          style: Theme.of(context).textTheme.titleLarge ?? TextStyle(),
           child: new Semantics(child: title, namesRoute: true),
         ),
       ));

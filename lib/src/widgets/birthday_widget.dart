@@ -45,7 +45,7 @@ class _BirthdayWidgetState extends BaseState<BirthdayWidget> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.w500,
-                color: Theme.of(context).textTheme.titleSmall.color,
+                color: Theme.of(context).textTheme.titleSmall?.color,
                 fontSize: 15.0,
               ),
             ),

@@ -189,7 +189,7 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 'Pay',
                 style: TextStyle(
                     fontSize: 14.0,
-                    color: Theme.of(context).textTheme.titleLarge.color),
+                    color: Theme.of(context).textTheme.titleLarge?.color),
               ),
               SizedBox(
                 width: 5.0,
@@ -198,7 +198,7 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                   child: Text(Utils.formatAmount(_charge.amount),
                       style: TextStyle(
                           fontSize: 15.0,
-                          color: Theme.of(context).textTheme.titleSmall.color,
+                          color: Theme.of(context).textTheme.titleSmall?.color,
                           fontWeight: FontWeight.bold)))
             ],
           )
