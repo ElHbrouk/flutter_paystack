@@ -10,7 +10,7 @@ class PlatformInfo {
 
   static Future<PlatformInfo> fromMethodChannel(MethodChannel channel) async {
     // TODO: Update for every new versions.
-    //  And there should a better way to fucking do this
+    //  And there should a better way to fucking do this Lmao
     final pluginVersion = "1.0.5";
 
     final platform = Platform.operatingSystem;
